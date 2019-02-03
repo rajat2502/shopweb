@@ -1,0 +1,152 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+p{
+  display: inline;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+}
+hr{
+  border-style: none;
+  width:5%;
+  border-top-style: dotted;
+  border-color: lightgreen;
+  border-width: 5px;
+}
+.logo{
+  width: 400px;
+  height: 150px;
+}
+.top2{
+  width:100%;
+  height:40px;
+  background-color: orange;
+}
+.heada{
+  position: relative;
+  top: 10px;
+  padding-left: 30px;
+  color: white;
+}
+.heada:hover{
+  color:brown;
+}
+.video{
+  height: 400px;
+  width: 100%;
+  z-index: -1000;
+  overflow: hidden;
+  background-size: cover;
+}
+.center{
+  color: brown;
+  font-weight: bolder;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input{
+  margin: 0 auto;
+  width: 400px;
+  height: 35px;
+  font-size: 18px;
+  color: black;
+  background-color: inherit;
+  border: 1px solid;
+}
+.input2{
+  height: 35px;
+  font-size: 18px;
+}
+.butn{
+  height: 32px;
+  background-color: orange;
+  border: none;
+}
+.butn:hover{
+  background: #3a6885;
+}
+.mid{
+  margin-top: 50px;
+  color:green;
+}
+.contents{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  outline: solid;
+  outline-color: grey;
+  margin: 25px;
+}
+.con{
+  height: 150px;
+  width: 150px;
+  padding-bottom: 20px;
+}
+.anc{
+  color:orange;
+}
+.show{
+  width: 100%;
+  height:400px;
+  margin-top: 60px;
+}
+.offer{
+  padding-top: 50px;
+  padding-left: 20px;
+  display: inline-block;
+}
+.pic{
+  height: 320px;
+  width: 320px;
+}
+.pic1{
+  width: 320px;
+  height: 150px;
+}
+.pic2{
+  padding-top:16px;
+}
+.bottom{
+  width: 100%;
+  height: 500px;
+  background-color: lightgrey;
+}
+.last{
+  display: inline-block;
+  color:black;
+}
+.last1{
+  display: inline-block;
+  color:black;
+  position: relative;
+  bottom: 80px;
+  padding-left: 80px;
+  text-align: center;
+}
+.last3:hover{
+  color: orange;
+}
+.home{
+  position: relative;
+  bottom: 100px;
+  color:black;
+}
+.tab{
+  margin-top: 0
+}
+#lo{
+  height: 120px;
+  width: 350px;
+  display: relative;
+  bottom: 40px;
+}
+.copyright{
+  color: black;
+  padding-top: 20px;
+}
