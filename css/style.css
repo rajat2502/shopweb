@@ -17,6 +17,24 @@ hr{
   border-color: lightgreen;
   border-width: 5px;
 }
+.topimage{
+  width: 100%;
+}
+#mybtn{
+  border: none;
+  border-radius: 14%;
+  background-color: orange;
+  width: 7vh;
+  height: 7vh;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 1000;
+  display: none;
+}
+#mybtn:hover{
+  background-color: brown;
+}
 .logo{
   width: 400px;
   height: 150px;
@@ -97,9 +115,40 @@ hr{
   margin-top: 60px;
 }
 .offer{
-  padding-top: 50px;
+  margin-top:
   padding-left: 20px;
   display: inline-block;
+}
+.offer1{
+  padding-left: 20px;
+  display: inline-block;
+}
+.offer2{
+  padding-left: 20px;
+  display: inline-block;
+}
+.h{
+  color: orange;
+  font-size: 40px;
+}
+.s{
+  color:white;
+}
+.text{
+  position: relative;
+  top :250px;
+}
+.text1{
+  position: relative;
+  top :200px;
+}
+.text2{
+  position: relative;
+  top :195px;
+}
+.text3{
+  position: relative;
+  top :295px;
 }
 .pic{
   height: 320px;
@@ -115,7 +164,7 @@ hr{
 .bottom{
   width: 100%;
   height: 500px;
-  background-color: lightgrey;
+  background-color: grey;
 }
 .last{
   display: inline-block;
@@ -130,7 +179,7 @@ hr{
   text-align: center;
 }
 .last3:hover{
-  color: orange;
+  color: white;
 }
 .home{
   position: relative;
@@ -147,6 +196,6 @@ hr{
   bottom: 40px;
 }
 .copyright{
-  color: black;
+  color: white;
   padding-top: 20px;
 }
